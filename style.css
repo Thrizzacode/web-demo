@@ -1,0 +1,74 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://www.fao.org/images/devforestslibraries/default-album/forests.jpg?sfvrsn=2dd96b96_11);
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  padding: 150px;
+}
+
+section {
+  text-align: center;
+  padding: 80px 0px;
+}
+section .section-heading {
+  font-size: 36px;
+}
+section .section-subheading {
+  font-size: 16px;
+}
+
+.col-tree {
+  padding: 70px;
+}
+.col-tree img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+section.story {
+  background-color: #eee;
+}
+section.story .col-md-6 {
+  padding: 20px;
+}
+section.story .icon_tree {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+section.pic {
+  padding: 0px;
+  color: white;
+}
+section.pic .col-md-6 {
+  padding: 100px;
+  transition: 0.5s;
+  background-position: center;
+}
+section.pic .col-md-6:hover {
+  filter: brightness(0.5);
+  background-size: 180%;
+}
+section.pic p {
+  font-size: 10px;
+  padding: 10px;
+}
+section.pic .pic1 {
+  background-image: url(https://images.theconversation.com/files/447820/original/file-20220222-17-r2wgts.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip);
+  background-size: 170% auto;
+}
+section.pic .pic2 {
+  background-image: url(https://thumbs.dreamstime.com/b/forest-path-panorama-25795025.jpg);
+  background-size: 170% auto;
+}
